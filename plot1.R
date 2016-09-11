@@ -44,7 +44,7 @@ plot1 <- function() {
   par(mfrow=c(1,1),font.main=1)
   
   # open png file (new plotting device)
-  png(filename = "Rplot1.png", width = 480, height = 480,
+  png(filename = "plot1.png", width = 480, height = 480,
       units = "px", pointsize = 12, bg = "white", res = NA,
       restoreConsole = TRUE)
   
